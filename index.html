@@ -5,8 +5,145 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  
+  <header>
+    <nav>
+      <ul class="header__nav">
+        <li class="nav-li"><a class="nav-link" href="#">Search</a></li>
+        <li class="nav-li"><a class="nav-link" href="#">My Movies</a></li>
+      </ul>
+    </nav>
+    <div class="header__right-block">
+      <h1 class="header__heading">John Doe</h1>
+      <div class="header__logo">
+        <img class="logo-img" src="./placeholder-image.png" alt="logo">
+      </div>
+    </div>
+  </header>
+
+  <div class="main-block">
+    <aside class="main-block__left"></aside>
+    <main class="main-block__center">
+      <form class="main-form">
+        <div class="select-block">
+          <select class="main-form__select">
+            <option disabled selected>Format</option>
+          </select>
+          <select class="main-form__select">
+            <option disabled selected>Genre</option>
+          </select>
+          <select class="main-form__select">
+            <option disabled selected>Year</option>
+          </select>
+        </div>
+        <div class="input-form">
+          <input class="input-form__input" type="text" placeholder="Search movie...">
+          <button class="input-form__button" type="submit">Search</button>
+        </div>
+      </form>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <td></td>
+              <td>Title</td>
+              <td>Format</td>
+              <td>Genre</td>
+              <td>Year</td>
+              <td>Rating</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td>Alien</td>
+              <td>Movie</td>
+              <td>Horror</td>
+              <td>1979</td>
+              <td>8.5</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td>Blade Runner</td>
+              <td>Movie</td>
+              <td>Thriller</td>
+              <td>1982</td>
+              <td>8.2</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+              <td>...</td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <img class="movie-img" src="./placeholder-image.png" alt="movie">
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="pagination">
+        <div class="pagination__group">
+          <div class="pagination__item">&lt;&lt;</div>
+          <div class="pagination__item">1</div>
+          <div class="pagination__item">2</div>
+          <div class="pagination__item">3</div>
+          <div class="pagination__item">4</div>
+          <div class="pagination__item">5</div>
+          <div class="pagination__item">&gt;&gt;</div>
+        </div>
+      </div>
+    </main>
+    <aside class="main-block__right"></aside>
+  </div>
+
+  <footer></footer>
 </body>
 </html>
